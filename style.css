@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Overpass';
+}
+body{
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#111317
+
+}
+.rating-area{
+    height: 50rem;
+    width: 45rem;
+    border-radius:30px;
+    padding:8%;
+    background-color:#1f2630;
+    display:block;
+}
+#mark{
+    height:60px;
+    width: 60px;
+    background-color:rgb(166, 166, 166);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 5px;
+    border-radius:50%;
+}
+#img-rsz{
+    height:30px;
+    
+}
+#info-texts {
+    margin-top: 10%;
+}
+#info-texts h1{
+    color:white;
+    font-size:60px;
+    margin-bottom:20px
+}
+#info-texts p{
+    color:#4c535c;
+    font-size:30px;
+}
+
+#inputs-style{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 10%;
+
+}
+#notes input{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    border:none;
+    font-size:25px;
+    background-color:#262e38;
+    color:white;
+    margin-right:1rem;
+}
+#notes input:hover{
+    background-color: #4c535c;
+    transition:0.5s ease; 
+}
+.active{
+    color: #fa7614;
+}
+#btn-sub{
+    width:300px;
+    height: 50px;
+    font-size:25px;
+    text-transform:uppercase;
+    border-radius:30px;
+    border:none;
+    margin-top:1rem;
+}
+#btn-sub:hover{
+    color:#fa7614;
+    transition:0.5s ease; 
+    border:1px solid #fa7614
+}
+.subArea{
+    display:none;
+}
+.thanks-area{
+  
+    height: 50rem;
+    width: 45rem;
+    border-radius:30px;
+    padding:8%;
+    background-color:#1f2630;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+}
+#thks-img{
+    height:300px
+}
+
+#count-note{
+    height: 50px;
+    width:350px;
+    border-radius: 30px;
+    color:white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#4c535c;
+    color: #fa7614;
+}
+#thks-texts h1{
+    color:white;
+    font-size:50px;
+}
+#thks-texts p{
+    color:#4c535c;
+    font-size:30px;
+}
+#btn-reset{
+    background-color:#262e38;
+    height:50px;
+    width:100px;
+    text-transform:uppercase;
+    font-size:20px;
+    border-radius:15px;
+    border:0.1px solid  rgb(128, 128, 128);
+    color:white;
+    transition:0.5s ease;
+  
+}
+#btn-reset:hover{
+border: none;
+transition:0.5s ease;
+box-shadow:-1px 1px 3px 1px #fa7614
+}

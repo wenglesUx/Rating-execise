@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Rating</title>
+</head>
+<body>
+    
+    <div class="rating-body">
+        <div class="rating-area">
+            <div id="mark">
+                <img src="/atv-1/images/images/icon-star.svg" id="img-rsz">
+            </div>
+          
+            <div id="info-texts">
+                <h1>How did we do?</h1>
+                <p>
+                    Please let us know how we did  eith your support <br>
+                    request. All feedback is apreciated to help us <br>
+                    improve our offering!
+                </p>
+            </div>
+            <div id="note-area">
+                <form action="post" method="post" id="inputs-style">
+                    <div id="notes">
+                        <input type="button" value="1" onclick="insert(value)">
+                        <input type="button" value="2" onclick="insert(value)">
+                        <input type="button" value="3" onclick="insert(value)">
+                        <input type="button" value="4" onclick="insert(value)">
+                        <input type="button" value="5" onclick="insert(value)">
+                    </div>
+                    <div id="btn">
+                        <input type="button" value="submit" id="btn-sub"> 
+                    </div>
+                   
+                    
+                </form>
+            </div>
+        </div>
+        <div class="subArea">
+            <div class="thanks-area">
+                <div id="mark-ths">
+                    <img src="/atv-1/images/images/illustration-thank-you.svg" alt="" id="thks-img">
+                </div>
+
+                <div id="count-note">
+                    <span> You selected 4 out of 5</span>
+                </div>
+
+                <div id="thks-texts">
+                    <h1>Thank you!</h1>
+                    <p>We apreciate  you taking the timne to give a <br>
+                    rating. If yiu ever need more support, don't <br>
+                    hesitate to get in touch!
+                    </p>
+                </div>
+                <div id="reset">
+                    <button id="btn-reset"> home</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="/atv-1/script.js"></script>
+</body>
+</html>
